@@ -68,4 +68,19 @@ console.log(ch);
 
 
     //object join....
-    
+    let  carObj = {
+        'name':"BMW",
+        "color":"red",
+        "price":10000,
+        'company':"tesla"
+    }
+
+    let pcObj ={
+        'name':"HP",
+        'ram':"4gb",
+        'ssd':"120gb",
+        "processor":"coreI5",
+        "price":499999,
+    }
+
+    console.log({...carObj, ...pcObj});
